@@ -145,6 +145,18 @@ public class run {
 	        }  
 	    }  
 	   
+	//function to select rows from database using where clause 
+	//user will be prompted to enter the name of the attribute it want to where clause on and the the value 
+	// for the specified attribute 
+	// to make thi easy to undertstand
+	// there are only 4 attributes
+	//name -> name of the movie
+	//actor -> name of the actor
+	//actress -> name of the actress
+	//director -> name of the director
+	//year_of_release -> year of release of the movie
+	
+	
 	   public void selectAll_where(){  
 		   System.out.println("Enter the name of the attribute you want the where clause of");
 		 
